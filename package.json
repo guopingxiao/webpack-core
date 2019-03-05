@@ -9,9 +9,10 @@
     "start": "webpack index.js",
     "prod": "NODE_ENV=production webpack index.js"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "eslint": "^5.4.0"
+    "eslint": "^5.4.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
   }
 }
