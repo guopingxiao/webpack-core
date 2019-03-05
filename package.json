@@ -1,0 +1,17 @@
+{
+  "name": "webpack-core",
+  "version": "1.0.0",
+  "description": "webpack-core",
+  "main": "index.js",
+  "author": "xiaoguoping",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack index.js",
+    "prod": "NODE_ENV=production webpack index.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0"
+  }
+}
